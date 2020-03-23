@@ -33,7 +33,7 @@ defmodule RedisMutex.Mixfile do
   defp deps do
     [
       {:ex_doc, "~> 0.20", only: :dev},
-      {:redix, ">= 0.0.0"},
+      {:redix, "~> 0.9.3"},
       {:timex, "~> 3.6"},
       {:elixir_uuid, "~> 1.2"}
     ]
